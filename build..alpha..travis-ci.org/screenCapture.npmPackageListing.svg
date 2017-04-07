@@ -1,399 +1,399 @@
 <svg height="6334" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="6334" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-07 03:10:38 +0000  2300913 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-07 03:10:38 +0000     1085 byte  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-07 03:10:38 +0000    33593 byte  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-07 03:10:38 +0000     6517 byte  docs/example-heroku-redis.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-07 03:10:38 +0000     3460 byte  docs/notes.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-07 03:10:38 +0000      872 byte  examples/custom/README.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-07 03:10:38 +0000      740 byte  examples/custom/myFilter.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-07 03:10:38 +0000      275 byte  examples/custom/package.json</tspan>
-<tspan x="10" y="154">  8.  2017-04-07 03:10:38 +0000      824 byte  examples/custom/snapshot.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-07 03:10:38 +0000     1880 byte  examples/debug-phantomjs/README.md</tspan>
-<tspan x="10" y="186"> 10.  2017-04-07 03:10:38 +0000      275 byte  examples/debug-phantomjs/package.json</tspan>
-<tspan x="10" y="202"> 11.  2017-04-07 03:10:38 +0000     2118 byte  examples/debug-phantomjs/snapshot.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-07 03:10:38 +0000      960 byte  examples/html5rocks/README.md</tspan>
-<tspan x="10" y="234"> 13.  2017-04-07 03:10:38 +0000      275 byte  examples/html5rocks/package.json</tspan>
-<tspan x="10" y="250"> 14.  2017-04-07 03:10:38 +0000     1847 byte  examples/html5rocks/snapshot.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-07 03:10:38 +0000      877 byte  examples/process-limit/README.md</tspan>
-<tspan x="10" y="282"> 16.  2017-04-07 03:10:38 +0000      275 byte  examples/process-limit/package.json</tspan>
-<tspan x="10" y="298"> 17.  2017-04-07 03:10:38 +0000      880 byte  examples/process-limit/snapshot.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-07 03:10:38 +0000      584 byte  examples/simple-promise/README.md</tspan>
-<tspan x="10" y="330"> 19.  2017-04-07 03:10:38 +0000      275 byte  examples/simple-promise/package.json</tspan>
-<tspan x="10" y="346"> 20.  2017-04-07 03:10:38 +0000      789 byte  examples/simple-promise/snapshot.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-07 03:10:38 +0000      609 byte  examples/sitemap-index/README.md</tspan>
-<tspan x="10" y="378"> 22.  2017-04-07 03:10:38 +0000      275 byte  examples/sitemap-index/package.json</tspan>
-<tspan x="10" y="394"> 23.  2017-04-07 03:10:38 +0000      903 byte  examples/sitemap-index/snapshot.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-07 03:10:38 +0000      476 byte  examples/utils/index.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-07 03:10:38 +0000      928 byte  examples/verbose/README.md</tspan>
-<tspan x="10" y="442"> 26.  2017-04-07 03:10:38 +0000      275 byte  examples/verbose/package.json</tspan>
-<tspan x="10" y="458"> 27.  2017-04-07 03:10:38 +0000      970 byte  examples/verbose/snapshot.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-07 03:10:38 +0000     1136 byte  lib/async/exists.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-07 03:10:38 +0000    11014 byte  lib/async/index.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-07 03:10:38 +0000     3029 byte  lib/common/index.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-07 03:10:38 +0000      727 byte  lib/common/node.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-07 03:10:38 +0000     6418 byte  lib/common/sitemap.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-07 03:10:38 +0000     8660 byte  lib/html-snapshots.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-07 03:10:38 +0000     9327 byte  lib/input-generators/_base.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-07 03:10:38 +0000     2050 byte  lib/input-generators/array.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-07 03:10:38 +0000     1553 byte  lib/input-generators/index.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-07 03:10:38 +0000     4113 byte  lib/input-generators/robots.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-07 03:10:38 +0000     5573 byte  lib/input-generators/sitemap-index.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-07 03:10:38 +0000     1834 byte  lib/input-generators/sitemap.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-07 03:10:38 +0000     1988 byte  lib/input-generators/textfile.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-07 03:10:38 +0000      669 byte  lib/phantom/customFilter.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-07 03:10:38 +0000      562 byte  lib/phantom/default.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-07 03:10:38 +0000     2942 byte  lib/phantom/modules/cli.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-07 03:10:38 +0000     1383 byte  lib/phantom/modules/detectors.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-07 03:10:38 +0000      990 byte  lib/phantom/modules/globals.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-07 03:10:38 +0000     3062 byte  lib/phantom/modules/selectorDetect.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-07 03:10:38 +0000     2577 byte  lib/phantom/modules/verbose.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-07 03:10:38 +0000      805 byte  lib/phantom/removeScripts.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-07 03:10:38 +0000     3654 byte  package.json</tspan>
-<tspan x="10" y="826"> 50.  2017-04-07 03:10:38 +0000     1179 byte  test/helpers/options.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-07 03:10:38 +0000      231 byte  test/helpers/result.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-07 03:10:38 +0000     3499 byte  test/helpers/sitemap.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-07 03:10:38 +0000    12094 byte  test/mocha/async/test.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-07 03:10:38 +0000     1847 byte  test/mocha/common/helpers.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-07 03:10:38 +0000     2269 byte  test/mocha/common/node.js</tspan>
-<tspan x="10" y="922"> 56.  2017-04-07 03:10:38 +0000     5815 byte  test/mocha/common/test.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-07 03:10:38 +0000     2159 byte  test/mocha/html-snapshots/basics.js</tspan>
-<tspan x="10" y="954"> 58.  2017-04-07 03:10:38 +0000      195 byte  test/mocha/html-snapshots/myFilter.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-07 03:10:38 +0000     4020 byte  test/mocha/html-snapshots/phantomjs-options.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-07 03:10:38 +0000     4196 byte  test/mocha/html-snapshots/process-limit.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-07 03:10:38 +0000     4413 byte  test/mocha/html-snapshots/robots.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-07 03:10:38 +0000     2262 byte  test/mocha/html-snapshots/server/contact/index.ht\</tspan>
+<tspan x="10" y="26">  0.  2017-04-07 03:12:26 +0000  2300913 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 03:12:26 +0000     1085 byte  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 03:12:26 +0000    33593 byte  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 03:12:26 +0000     6517 byte  docs/example-heroku-redis.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 03:12:26 +0000     3460 byte  docs/notes.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 03:12:26 +0000      872 byte  examples/custom/README.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 03:12:26 +0000      740 byte  examples/custom/myFilter.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 03:12:26 +0000      275 byte  examples/custom/package.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 03:12:26 +0000      824 byte  examples/custom/snapshot.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 03:12:26 +0000     1880 byte  examples/debug-phantomjs/README.md</tspan>
+<tspan x="10" y="186"> 10.  2017-04-07 03:12:26 +0000      275 byte  examples/debug-phantomjs/package.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-07 03:12:26 +0000     2118 byte  examples/debug-phantomjs/snapshot.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-07 03:12:26 +0000      960 byte  examples/html5rocks/README.md</tspan>
+<tspan x="10" y="234"> 13.  2017-04-07 03:12:26 +0000      275 byte  examples/html5rocks/package.json</tspan>
+<tspan x="10" y="250"> 14.  2017-04-07 03:12:26 +0000     1847 byte  examples/html5rocks/snapshot.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-07 03:12:26 +0000      877 byte  examples/process-limit/README.md</tspan>
+<tspan x="10" y="282"> 16.  2017-04-07 03:12:26 +0000      275 byte  examples/process-limit/package.json</tspan>
+<tspan x="10" y="298"> 17.  2017-04-07 03:12:26 +0000      880 byte  examples/process-limit/snapshot.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-07 03:12:26 +0000      584 byte  examples/simple-promise/README.md</tspan>
+<tspan x="10" y="330"> 19.  2017-04-07 03:12:26 +0000      275 byte  examples/simple-promise/package.json</tspan>
+<tspan x="10" y="346"> 20.  2017-04-07 03:12:26 +0000      789 byte  examples/simple-promise/snapshot.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-07 03:12:26 +0000      609 byte  examples/sitemap-index/README.md</tspan>
+<tspan x="10" y="378"> 22.  2017-04-07 03:12:26 +0000      275 byte  examples/sitemap-index/package.json</tspan>
+<tspan x="10" y="394"> 23.  2017-04-07 03:12:26 +0000      903 byte  examples/sitemap-index/snapshot.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-07 03:12:26 +0000      476 byte  examples/utils/index.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-07 03:12:26 +0000      928 byte  examples/verbose/README.md</tspan>
+<tspan x="10" y="442"> 26.  2017-04-07 03:12:26 +0000      275 byte  examples/verbose/package.json</tspan>
+<tspan x="10" y="458"> 27.  2017-04-07 03:12:26 +0000      970 byte  examples/verbose/snapshot.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-07 03:12:26 +0000     1136 byte  lib/async/exists.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-07 03:12:26 +0000    11014 byte  lib/async/index.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-07 03:12:26 +0000     3029 byte  lib/common/index.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-07 03:12:26 +0000      727 byte  lib/common/node.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-07 03:12:26 +0000     6418 byte  lib/common/sitemap.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-07 03:12:26 +0000     8660 byte  lib/html-snapshots.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-07 03:12:26 +0000     9327 byte  lib/input-generators/_base.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-07 03:12:26 +0000     2050 byte  lib/input-generators/array.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-07 03:12:26 +0000     1553 byte  lib/input-generators/index.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-07 03:12:26 +0000     4113 byte  lib/input-generators/robots.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-07 03:12:26 +0000     5573 byte  lib/input-generators/sitemap-index.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-07 03:12:26 +0000     1834 byte  lib/input-generators/sitemap.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-07 03:12:26 +0000     1988 byte  lib/input-generators/textfile.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-07 03:12:26 +0000      669 byte  lib/phantom/customFilter.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-07 03:12:26 +0000      562 byte  lib/phantom/default.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-07 03:12:26 +0000     2942 byte  lib/phantom/modules/cli.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-07 03:12:26 +0000     1383 byte  lib/phantom/modules/detectors.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-07 03:12:26 +0000      990 byte  lib/phantom/modules/globals.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-07 03:12:26 +0000     3062 byte  lib/phantom/modules/selectorDetect.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-07 03:12:26 +0000     2577 byte  lib/phantom/modules/verbose.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-07 03:12:26 +0000      805 byte  lib/phantom/removeScripts.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-07 03:12:26 +0000     3654 byte  package.json</tspan>
+<tspan x="10" y="826"> 50.  2017-04-07 03:12:26 +0000     1179 byte  test/helpers/options.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-07 03:12:26 +0000      231 byte  test/helpers/result.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-07 03:12:26 +0000     3499 byte  test/helpers/sitemap.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-07 03:12:26 +0000    12094 byte  test/mocha/async/test.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-07 03:12:26 +0000     1847 byte  test/mocha/common/helpers.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-07 03:12:26 +0000     2269 byte  test/mocha/common/node.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-07 03:12:26 +0000     5815 byte  test/mocha/common/test.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-07 03:12:26 +0000     2159 byte  test/mocha/html-snapshots/basics.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-07 03:12:26 +0000      195 byte  test/mocha/html-snapshots/myFilter.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-07 03:12:26 +0000     4020 byte  test/mocha/html-snapshots/phantomjs-options.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-07 03:12:26 +0000     4196 byte  test/mocha/html-snapshots/process-limit.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-07 03:12:26 +0000     4413 byte  test/mocha/html-snapshots/robots.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-07 03:12:26 +0000     2262 byte  test/mocha/html-snapshots/server/contact/index.ht\</tspan>
 <tspan x="10" y="1034">ml</tspan>
-<tspan x="10" y="1050"> 63.  2017-04-07 03:10:38 +0000     3638 byte  test/mocha/html-snapshots/server/favicon.ico</tspan>
-<tspan x="10" y="1066"> 64.  2017-04-07 03:10:38 +0000    23127 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
+<tspan x="10" y="1050"> 63.  2017-04-07 03:12:26 +0000     3638 byte  test/mocha/html-snapshots/server/favicon.ico</tspan>
+<tspan x="10" y="1066"> 64.  2017-04-07 03:12:26 +0000    23127 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
 <tspan x="10" y="1082">ebfont.eot</tspan>
-<tspan x="10" y="1098"> 65.  2017-04-07 03:10:38 +0000    54357 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
+<tspan x="10" y="1098"> 65.  2017-04-07 03:12:26 +0000    54357 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
 <tspan x="10" y="1114">ebfont.svg</tspan>
-<tspan x="10" y="1130"> 66.  2017-04-07 03:10:38 +0000    39268 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
+<tspan x="10" y="1130"> 66.  2017-04-07 03:12:26 +0000    39268 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
 <tspan x="10" y="1146">ebfont.ttf</tspan>
-<tspan x="10" y="1162"> 67.  2017-04-07 03:10:38 +0000    26468 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
+<tspan x="10" y="1162"> 67.  2017-04-07 03:12:26 +0000    26468 byte  test/mocha/html-snapshots/server/fonts/facebolf-w\</tspan>
 <tspan x="10" y="1178">ebfont.woff</tspan>
-<tspan x="10" y="1194"> 68.  2017-04-07 03:10:38 +0000     3208 byte  test/mocha/html-snapshots/server/images/ajax-load\</tspan>
+<tspan x="10" y="1194"> 68.  2017-04-07 03:12:26 +0000     3208 byte  test/mocha/html-snapshots/server/images/ajax-load\</tspan>
 <tspan x="10" y="1210">er.gif</tspan>
-<tspan x="10" y="1226"> 69.  2017-04-07 03:10:38 +0000     4706 byte  test/mocha/html-snapshots/server/images/art1.jpg</tspan>
-<tspan x="10" y="1242"> 70.  2017-04-07 03:10:38 +0000     3438 byte  test/mocha/html-snapshots/server/images/carpet.jp\</tspan>
+<tspan x="10" y="1226"> 69.  2017-04-07 03:12:26 +0000     4706 byte  test/mocha/html-snapshots/server/images/art1.jpg</tspan>
+<tspan x="10" y="1242"> 70.  2017-04-07 03:12:26 +0000     3438 byte  test/mocha/html-snapshots/server/images/carpet.jp\</tspan>
 <tspan x="10" y="1258">g</tspan>
-<tspan x="10" y="1274"> 71.  2017-04-07 03:10:38 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1274"> 71.  2017-04-07 03:12:26 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1290">arpet1.jpg</tspan>
-<tspan x="10" y="1306"> 72.  2017-04-07 03:10:38 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1306"> 72.  2017-04-07 03:12:26 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1322">arpet1_th.jpg</tspan>
-<tspan x="10" y="1338"> 73.  2017-04-07 03:10:38 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1338"> 73.  2017-04-07 03:12:26 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1354">arpet2.jpg</tspan>
-<tspan x="10" y="1370"> 74.  2017-04-07 03:10:38 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1370"> 74.  2017-04-07 03:12:26 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1386">arpet2_th.jpg</tspan>
-<tspan x="10" y="1402"> 75.  2017-04-07 03:10:38 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1402"> 75.  2017-04-07 03:12:26 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1418">arpet3.jpg</tspan>
-<tspan x="10" y="1434"> 76.  2017-04-07 03:10:38 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1434"> 76.  2017-04-07 03:12:26 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1450">arpet3_th.jpg</tspan>
-<tspan x="10" y="1466"> 77.  2017-04-07 03:10:38 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1466"> 77.  2017-04-07 03:12:26 +0000    16494 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1482">arpet4.jpg</tspan>
-<tspan x="10" y="1498"> 78.  2017-04-07 03:10:38 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
+<tspan x="10" y="1498"> 78.  2017-04-07 03:12:26 +0000     5733 byte  test/mocha/html-snapshots/server/images/carpets/c\</tspan>
 <tspan x="10" y="1514">arpet4_th.jpg</tspan>
-<tspan x="10" y="1530"> 79.  2017-04-07 03:10:38 +0000     1815 byte  test/mocha/html-snapshots/server/images/floor.jpg</tspan>
-<tspan x="10" y="1546"> 80.  2017-04-07 03:10:38 +0000      657 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1530"> 79.  2017-04-07 03:12:26 +0000     1815 byte  test/mocha/html-snapshots/server/images/floor.jpg</tspan>
+<tspan x="10" y="1546"> 80.  2017-04-07 03:12:26 +0000      657 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1562">n/orbit/bullets.jpg</tspan>
-<tspan x="10" y="1578"> 81.  2017-04-07 03:10:38 +0000     3163 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1578"> 81.  2017-04-07 03:12:26 +0000     3163 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1594">n/orbit/left-arrow-small.png</tspan>
-<tspan x="10" y="1610"> 82.  2017-04-07 03:10:38 +0000      522 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1610"> 82.  2017-04-07 03:12:26 +0000      522 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1626">n/orbit/left-arrow.png</tspan>
-<tspan x="10" y="1642"> 83.  2017-04-07 03:10:38 +0000     2608 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1642"> 83.  2017-04-07 03:12:26 +0000     2608 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1658">n/orbit/loading.gif</tspan>
-<tspan x="10" y="1674"> 84.  2017-04-07 03:10:38 +0000      526 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1674"> 84.  2017-04-07 03:12:26 +0000      526 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1690">n/orbit/mask-black.png</tspan>
-<tspan x="10" y="1706"> 85.  2017-04-07 03:10:38 +0000      288 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1706"> 85.  2017-04-07 03:12:26 +0000      288 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1722">n/orbit/pause-black.png</tspan>
-<tspan x="10" y="1738"> 86.  2017-04-07 03:10:38 +0000     3169 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1738"> 86.  2017-04-07 03:12:26 +0000     3169 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1754">n/orbit/right-arrow-small.png</tspan>
-<tspan x="10" y="1770"> 87.  2017-04-07 03:10:38 +0000     3242 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1770"> 87.  2017-04-07 03:12:26 +0000     3242 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1786">n/orbit/right-arrow.png</tspan>
-<tspan x="10" y="1802"> 88.  2017-04-07 03:10:38 +0000      536 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1802"> 88.  2017-04-07 03:12:26 +0000      536 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1818">n/orbit/rotator-black.png</tspan>
-<tspan x="10" y="1834"> 89.  2017-04-07 03:10:38 +0000      526 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
+<tspan x="10" y="1834"> 89.  2017-04-07 03:12:26 +0000      526 byte  test/mocha/html-snapshots/server/images/foundatio\</tspan>
 <tspan x="10" y="1850">n/orbit/timer-black.png</tspan>
-<tspan x="10" y="1866"> 90.  2017-04-07 03:10:38 +0000    36541 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
+<tspan x="10" y="1866"> 90.  2017-04-07 03:12:26 +0000    36541 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
 <tspan x="10" y="1882">te-s1a48fdbd81.png</tspan>
-<tspan x="10" y="1898"> 91.  2017-04-07 03:10:38 +0000    13080 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
+<tspan x="10" y="1898"> 91.  2017-04-07 03:12:26 +0000    13080 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
 <tspan x="10" y="1914">te/certification.png</tspan>
-<tspan x="10" y="1930"> 92.  2017-04-07 03:10:38 +0000    11246 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
+<tspan x="10" y="1930"> 92.  2017-04-07 03:12:26 +0000    11246 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
 <tspan x="10" y="1946">te/cleantrust.png</tspan>
-<tspan x="10" y="1962"> 93.  2017-04-07 03:10:38 +0000    13332 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
+<tspan x="10" y="1962"> 93.  2017-04-07 03:12:26 +0000    13332 byte  test/mocha/html-snapshots/server/images/home-spri\</tspan>
 <tspan x="10" y="1978">te/institute.png</tspan>
-<tspan x="10" y="1994"> 94.  2017-04-07 03:10:38 +0000    15359 byte  test/mocha/html-snapshots/server/images/logo-300.\</tspan>
+<tspan x="10" y="1994"> 94.  2017-04-07 03:12:26 +0000    15359 byte  test/mocha/html-snapshots/server/images/logo-300.\</tspan>
 <tspan x="10" y="2010">png</tspan>
-<tspan x="10" y="2026"> 95.  2017-04-07 03:10:38 +0000    24323 byte  test/mocha/html-snapshots/server/images/slider1-l\</tspan>
+<tspan x="10" y="2026"> 95.  2017-04-07 03:12:26 +0000    24323 byte  test/mocha/html-snapshots/server/images/slider1-l\</tspan>
 <tspan x="10" y="2042">g.jpg</tspan>
-<tspan x="10" y="2058"> 96.  2017-04-07 03:10:38 +0000    11838 byte  test/mocha/html-snapshots/server/images/slider1.j\</tspan>
+<tspan x="10" y="2058"> 96.  2017-04-07 03:12:26 +0000    11838 byte  test/mocha/html-snapshots/server/images/slider1.j\</tspan>
 <tspan x="10" y="2074">pg</tspan>
-<tspan x="10" y="2090"> 97.  2017-04-07 03:10:38 +0000    80864 byte  test/mocha/html-snapshots/server/index.css</tspan>
-<tspan x="10" y="2106"> 98.  2017-04-07 03:10:38 +0000     2262 byte  test/mocha/html-snapshots/server/index.html</tspan>
-<tspan x="10" y="2122"> 99.  2017-04-07 03:10:38 +0000     1383 byte  test/mocha/html-snapshots/server/nojq/index.html</tspan>
-<tspan x="10" y="2138">100.  2017-04-07 03:10:38 +0000     4125 byte  test/mocha/html-snapshots/server/pjsopts/index.ht\</tspan>
+<tspan x="10" y="2090"> 97.  2017-04-07 03:12:26 +0000    80864 byte  test/mocha/html-snapshots/server/index.css</tspan>
+<tspan x="10" y="2106"> 98.  2017-04-07 03:12:26 +0000     2262 byte  test/mocha/html-snapshots/server/index.html</tspan>
+<tspan x="10" y="2122"> 99.  2017-04-07 03:12:26 +0000     1383 byte  test/mocha/html-snapshots/server/nojq/index.html</tspan>
+<tspan x="10" y="2138">100.  2017-04-07 03:12:26 +0000     4125 byte  test/mocha/html-snapshots/server/pjsopts/index.ht\</tspan>
 <tspan x="10" y="2154">ml</tspan>
-<tspan x="10" y="2170">101.  2017-04-07 03:10:38 +0000      736 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2170">101.  2017-04-07 03:12:26 +0000      736 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2186">-2/category-sitemap.xml</tspan>
-<tspan x="10" y="2202">102.  2017-04-07 03:10:38 +0000      799 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2202">102.  2017-04-07 03:12:26 +0000      799 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2218">-2/page-sitemap.xml</tspan>
-<tspan x="10" y="2234">103.  2017-04-07 03:10:38 +0000     1473 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2234">103.  2017-04-07 03:12:26 +0000     1473 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2250">-2/post-sitemap.xml</tspan>
-<tspan x="10" y="2266">104.  2017-04-07 03:10:38 +0000      846 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2266">104.  2017-04-07 03:12:26 +0000      846 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2282">-2/post_tag-sitemap.xml</tspan>
-<tspan x="10" y="2298">105.  2017-04-07 03:10:38 +0000      748 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2298">105.  2017-04-07 03:12:26 +0000      748 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2314">-2/product-sitemap.xml</tspan>
-<tspan x="10" y="2330">106.  2017-04-07 03:10:38 +0000      736 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2330">106.  2017-04-07 03:12:26 +0000      736 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2346">/category-sitemap.xml</tspan>
-<tspan x="10" y="2362">107.  2017-04-07 03:10:38 +0000      803 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2362">107.  2017-04-07 03:12:26 +0000      803 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2378">/page-sitemap.xml</tspan>
-<tspan x="10" y="2394">108.  2017-04-07 03:10:38 +0000     1477 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2394">108.  2017-04-07 03:12:26 +0000     1477 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2410">/post-sitemap.xml</tspan>
-<tspan x="10" y="2426">109.  2017-04-07 03:10:38 +0000      850 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2426">109.  2017-04-07 03:12:26 +0000      850 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2442">/post_tag-sitemap.xml</tspan>
-<tspan x="10" y="2458">110.  2017-04-07 03:10:38 +0000      752 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
+<tspan x="10" y="2458">110.  2017-04-07 03:12:26 +0000      752 byte  test/mocha/html-snapshots/server/public/wordpress\</tspan>
 <tspan x="10" y="2474">/product-sitemap.xml</tspan>
-<tspan x="10" y="2490">111.  2017-04-07 03:10:38 +0000   219057 byte  test/mocha/html-snapshots/server/require.js</tspan>
-<tspan x="10" y="2506">112.  2017-04-07 03:10:38 +0000     2262 byte  test/mocha/html-snapshots/server/services/carpets\</tspan>
+<tspan x="10" y="2490">111.  2017-04-07 03:12:26 +0000   219057 byte  test/mocha/html-snapshots/server/require.js</tspan>
+<tspan x="10" y="2506">112.  2017-04-07 03:12:26 +0000     2262 byte  test/mocha/html-snapshots/server/services/carpets\</tspan>
 <tspan x="10" y="2522">/index.html</tspan>
-<tspan x="10" y="2538">113.  2017-04-07 03:10:38 +0000     1024 byte  test/mocha/html-snapshots/server/test_sitemap_ind\</tspan>
+<tspan x="10" y="2538">113.  2017-04-07 03:12:26 +0000     1024 byte  test/mocha/html-snapshots/server/test_sitemap_ind\</tspan>
 <tspan x="10" y="2554">ex-2.xml</tspan>
-<tspan x="10" y="2570">114.  2017-04-07 03:10:38 +0000     1018 byte  test/mocha/html-snapshots/server/test_sitemap_ind\</tspan>
+<tspan x="10" y="2570">114.  2017-04-07 03:12:26 +0000     1018 byte  test/mocha/html-snapshots/server/test_sitemap_ind\</tspan>
 <tspan x="10" y="2586">ex-3.xml</tspan>
-<tspan x="10" y="2602">115.  2017-04-07 03:10:38 +0000     1014 byte  test/mocha/html-snapshots/server/test_sitemap_ind\</tspan>
+<tspan x="10" y="2602">115.  2017-04-07 03:12:26 +0000     1014 byte  test/mocha/html-snapshots/server/test_sitemap_ind\</tspan>
 <tspan x="10" y="2618">ex.xml</tspan>
-<tspan x="10" y="2634">116.  2017-04-07 03:10:38 +0000     4303 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2634">116.  2017-04-07 03:12:26 +0000     4303 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2650">ebshim/minified/extras/custom-validity.js</tspan>
-<tspan x="10" y="2666">117.  2017-04-07 03:10:38 +0000    10272 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2666">117.  2017-04-07 03:12:26 +0000    10272 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2682">ebshim/minified/extras/modernizr-custom.js</tspan>
-<tspan x="10" y="2698">118.  2017-04-07 03:10:38 +0000      861 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2698">118.  2017-04-07 03:12:26 +0000      861 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2714">ebshim/minified/extras/mousepress.js</tspan>
-<tspan x="10" y="2730">119.  2017-04-07 03:10:38 +0000    15073 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2730">119.  2017-04-07 03:12:26 +0000    15073 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2746">ebshim/minified/polyfiller.js</tspan>
-<tspan x="10" y="2762">120.  2017-04-07 03:10:38 +0000      592 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2762">120.  2017-04-07 03:12:26 +0000      592 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2778">ebshim/minified/shims/FlashCanvas/canvas2png.js</tspan>
-<tspan x="10" y="2794">121.  2017-04-07 03:10:38 +0000    10556 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2794">121.  2017-04-07 03:12:26 +0000    10556 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2810">ebshim/minified/shims/FlashCanvas/flashcanvas.js</tspan>
-<tspan x="10" y="2826">122.  2017-04-07 03:10:38 +0000    21235 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2826">122.  2017-04-07 03:12:26 +0000    21235 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2842">ebshim/minified/shims/FlashCanvas/flashcanvas.swf</tspan>
-<tspan x="10" y="2858">123.  2017-04-07 03:10:38 +0000     2392 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2858">123.  2017-04-07 03:12:26 +0000     2392 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2874">ebshim/minified/shims/FlashCanvas/proxy.php</tspan>
-<tspan x="10" y="2890">124.  2017-04-07 03:10:38 +0000     1945 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2890">124.  2017-04-07 03:12:26 +0000     1945 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2906">ebshim/minified/shims/FlashCanvas/save.php</tspan>
-<tspan x="10" y="2922">125.  2017-04-07 03:10:38 +0000      592 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2922">125.  2017-04-07 03:12:26 +0000      592 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2938">ebshim/minified/shims/FlashCanvasPro/canvas2png.js</tspan>
-<tspan x="10" y="2954">126.  2017-04-07 03:10:38 +0000    27060 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2954">126.  2017-04-07 03:12:26 +0000    27060 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="2970">ebshim/minified/shims/FlashCanvasPro/flash10canvas.swf</tspan>
-<tspan x="10" y="2986">127.  2017-04-07 03:10:38 +0000    27200 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="2986">127.  2017-04-07 03:12:26 +0000    27200 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3002">ebshim/minified/shims/FlashCanvasPro/flash9canvas.swf</tspan>
-<tspan x="10" y="3018">128.  2017-04-07 03:10:38 +0000    12398 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3018">128.  2017-04-07 03:12:26 +0000    12398 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3034">ebshim/minified/shims/FlashCanvasPro/flashcanvas.js</tspan>
-<tspan x="10" y="3050">129.  2017-04-07 03:10:38 +0000     2392 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3050">129.  2017-04-07 03:12:26 +0000     2392 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3066">ebshim/minified/shims/FlashCanvasPro/proxy.php</tspan>
-<tspan x="10" y="3082">130.  2017-04-07 03:10:38 +0000     1945 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3082">130.  2017-04-07 03:12:26 +0000     1945 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3098">ebshim/minified/shims/FlashCanvasPro/save.php</tspan>
-<tspan x="10" y="3114">131.  2017-04-07 03:10:38 +0000    18483 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3114">131.  2017-04-07 03:12:26 +0000    18483 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3130">ebshim/minified/shims/combos/1.js</tspan>
-<tspan x="10" y="3146">132.  2017-04-07 03:10:38 +0000    41509 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3146">132.  2017-04-07 03:12:26 +0000    41509 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3162">ebshim/minified/shims/combos/10.js</tspan>
-<tspan x="10" y="3178">133.  2017-04-07 03:10:38 +0000    22787 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3178">133.  2017-04-07 03:12:26 +0000    22787 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3194">ebshim/minified/shims/combos/11.js</tspan>
-<tspan x="10" y="3210">134.  2017-04-07 03:10:38 +0000    23161 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3210">134.  2017-04-07 03:12:26 +0000    23161 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3226">ebshim/minified/shims/combos/12.js</tspan>
-<tspan x="10" y="3242">135.  2017-04-07 03:10:38 +0000    13854 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3242">135.  2017-04-07 03:12:26 +0000    13854 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3258">ebshim/minified/shims/combos/13.js</tspan>
-<tspan x="10" y="3274">136.  2017-04-07 03:10:38 +0000     9463 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3274">136.  2017-04-07 03:12:26 +0000     9463 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3290">ebshim/minified/shims/combos/14.js</tspan>
-<tspan x="10" y="3306">137.  2017-04-07 03:10:38 +0000     4867 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3306">137.  2017-04-07 03:12:26 +0000     4867 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3322">ebshim/minified/shims/combos/15.js</tspan>
-<tspan x="10" y="3338">138.  2017-04-07 03:10:38 +0000    30916 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3338">138.  2017-04-07 03:12:26 +0000    30916 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3354">ebshim/minified/shims/combos/16.js</tspan>
-<tspan x="10" y="3370">139.  2017-04-07 03:10:38 +0000    35337 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3370">139.  2017-04-07 03:12:26 +0000    35337 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3386">ebshim/minified/shims/combos/17.js</tspan>
-<tspan x="10" y="3402">140.  2017-04-07 03:10:38 +0000    32033 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3402">140.  2017-04-07 03:12:26 +0000    32033 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3418">ebshim/minified/shims/combos/18.js</tspan>
-<tspan x="10" y="3434">141.  2017-04-07 03:10:38 +0000    32966 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3434">141.  2017-04-07 03:12:26 +0000    32966 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3450">ebshim/minified/shims/combos/19.js</tspan>
-<tspan x="10" y="3466">142.  2017-04-07 03:10:38 +0000    38859 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3466">142.  2017-04-07 03:12:26 +0000    38859 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3482">ebshim/minified/shims/combos/2.js</tspan>
-<tspan x="10" y="3498">143.  2017-04-07 03:10:38 +0000    23028 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3498">143.  2017-04-07 03:12:26 +0000    23028 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3514">ebshim/minified/shims/combos/20.js</tspan>
-<tspan x="10" y="3530">144.  2017-04-07 03:10:38 +0000    28678 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3530">144.  2017-04-07 03:12:26 +0000    28678 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3546">ebshim/minified/shims/combos/21.js</tspan>
-<tspan x="10" y="3562">145.  2017-04-07 03:10:38 +0000    30079 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3562">145.  2017-04-07 03:12:26 +0000    30079 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3578">ebshim/minified/shims/combos/22.js</tspan>
-<tspan x="10" y="3594">146.  2017-04-07 03:10:38 +0000    37985 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3594">146.  2017-04-07 03:12:26 +0000    37985 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3610">ebshim/minified/shims/combos/23.js</tspan>
-<tspan x="10" y="3626">147.  2017-04-07 03:10:38 +0000    42273 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3626">147.  2017-04-07 03:12:26 +0000    42273 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3642">ebshim/minified/shims/combos/24.js</tspan>
-<tspan x="10" y="3658">148.  2017-04-07 03:10:38 +0000    31647 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3658">148.  2017-04-07 03:12:26 +0000    31647 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3674">ebshim/minified/shims/combos/25.js</tspan>
-<tspan x="10" y="3690">149.  2017-04-07 03:10:38 +0000    41826 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3690">149.  2017-04-07 03:12:26 +0000    41826 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3706">ebshim/minified/shims/combos/26.js</tspan>
-<tspan x="10" y="3722">150.  2017-04-07 03:10:38 +0000    52419 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3722">150.  2017-04-07 03:12:26 +0000    52419 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3738">ebshim/minified/shims/combos/27.js</tspan>
-<tspan x="10" y="3754">151.  2017-04-07 03:10:38 +0000    50216 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3754">151.  2017-04-07 03:12:26 +0000    50216 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3770">ebshim/minified/shims/combos/3.js</tspan>
-<tspan x="10" y="3786">152.  2017-04-07 03:10:38 +0000    14602 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3786">152.  2017-04-07 03:12:26 +0000    14602 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3802">ebshim/minified/shims/combos/4.js</tspan>
-<tspan x="10" y="3818">153.  2017-04-07 03:10:38 +0000    18201 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3818">153.  2017-04-07 03:12:26 +0000    18201 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3834">ebshim/minified/shims/combos/5.js</tspan>
-<tspan x="10" y="3850">154.  2017-04-07 03:10:38 +0000    29558 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3850">154.  2017-04-07 03:12:26 +0000    29558 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3866">ebshim/minified/shims/combos/59.js</tspan>
-<tspan x="10" y="3882">155.  2017-04-07 03:10:38 +0000    17077 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3882">155.  2017-04-07 03:12:26 +0000    17077 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3898">ebshim/minified/shims/combos/6.js</tspan>
-<tspan x="10" y="3914">156.  2017-04-07 03:10:38 +0000    20676 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3914">156.  2017-04-07 03:12:26 +0000    20676 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3930">ebshim/minified/shims/combos/7.js</tspan>
-<tspan x="10" y="3946">157.  2017-04-07 03:10:38 +0000    20737 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3946">157.  2017-04-07 03:12:26 +0000    20737 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3962">ebshim/minified/shims/combos/8.js</tspan>
-<tspan x="10" y="3978">158.  2017-04-07 03:10:38 +0000    34456 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="3978">158.  2017-04-07 03:12:26 +0000    34456 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="3994">ebshim/minified/shims/combos/9.js</tspan>
-<tspan x="10" y="4010">159.  2017-04-07 03:10:38 +0000     2424 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4010">159.  2017-04-07 03:12:26 +0000     2424 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4026">ebshim/minified/shims/details.js</tspan>
-<tspan x="10" y="4042">160.  2017-04-07 03:10:38 +0000    11430 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4042">160.  2017-04-07 03:12:26 +0000    11430 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4058">ebshim/minified/shims/dom-extend.js</tspan>
-<tspan x="10" y="4074">161.  2017-04-07 03:10:38 +0000     7053 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4074">161.  2017-04-07 03:12:26 +0000     7053 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4090">ebshim/minified/shims/es5.js</tspan>
-<tspan x="10" y="4106">162.  2017-04-07 03:10:38 +0000    10772 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4106">162.  2017-04-07 03:12:26 +0000    10772 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4122">ebshim/minified/shims/excanvas.js</tspan>
-<tspan x="10" y="4138">163.  2017-04-07 03:10:38 +0000    10181 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4138">163.  2017-04-07 03:12:26 +0000    10181 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4154">ebshim/minified/shims/form-core.js</tspan>
-<tspan x="10" y="4170">164.  2017-04-07 03:10:38 +0000    11357 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4170">164.  2017-04-07 03:12:26 +0000    11357 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4186">ebshim/minified/shims/form-datalist.js</tspan>
-<tspan x="10" y="4202">165.  2017-04-07 03:10:38 +0000     4421 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4202">165.  2017-04-07 03:12:26 +0000     4421 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4218">ebshim/minified/shims/form-message.js</tspan>
-<tspan x="10" y="4234">166.  2017-04-07 03:10:38 +0000     3599 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4234">166.  2017-04-07 03:12:26 +0000     3599 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4250">ebshim/minified/shims/form-native-extend.js</tspan>
-<tspan x="10" y="4266">167.  2017-04-07 03:10:38 +0000     5031 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4266">167.  2017-04-07 03:12:26 +0000     5031 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4282">ebshim/minified/shims/form-number-date-api.js</tspan>
-<tspan x="10" y="4298">168.  2017-04-07 03:10:38 +0000    12046 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4298">168.  2017-04-07 03:12:26 +0000    12046 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4314">ebshim/minified/shims/form-number-date-ui.js</tspan>
-<tspan x="10" y="4330">169.  2017-04-07 03:10:38 +0000    24257 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4330">169.  2017-04-07 03:12:26 +0000    24257 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4346">ebshim/minified/shims/form-shim-extend.js</tspan>
-<tspan x="10" y="4362">170.  2017-04-07 03:10:38 +0000     2443 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4362">170.  2017-04-07 03:12:26 +0000     2443 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4378">ebshim/minified/shims/geolocation.js</tspan>
-<tspan x="10" y="4394">171.  2017-04-07 03:10:38 +0000     3372 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4394">171.  2017-04-07 03:12:26 +0000     3372 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4410">ebshim/minified/shims/i18n/errormessages-ar.js</tspan>
-<tspan x="10" y="4426">172.  2017-04-07 03:10:38 +0000     1138 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4426">172.  2017-04-07 03:12:26 +0000     1138 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4442">ebshim/minified/shims/i18n/errormessages-ch-ZN.js</tspan>
-<tspan x="10" y="4458">173.  2017-04-07 03:10:38 +0000     2067 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4458">173.  2017-04-07 03:12:26 +0000     2067 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4474">ebshim/minified/shims/i18n/errormessages-de.txt</tspan>
-<tspan x="10" y="4490">174.  2017-04-07 03:10:38 +0000     4030 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4490">174.  2017-04-07 03:12:26 +0000     4030 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4506">ebshim/minified/shims/i18n/errormessages-el.js</tspan>
-<tspan x="10" y="4522">175.  2017-04-07 03:10:38 +0000     1537 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4522">175.  2017-04-07 03:12:26 +0000     1537 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4538">ebshim/minified/shims/i18n/errormessages-en.txt</tspan>
-<tspan x="10" y="4554">176.  2017-04-07 03:10:38 +0000     1143 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4554">176.  2017-04-07 03:12:26 +0000     1143 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4570">ebshim/minified/shims/i18n/errormessages-es.js</tspan>
-<tspan x="10" y="4586">177.  2017-04-07 03:10:38 +0000     1423 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4586">177.  2017-04-07 03:12:26 +0000     1423 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4602">ebshim/minified/shims/i18n/errormessages-fr.js</tspan>
-<tspan x="10" y="4618">178.  2017-04-07 03:10:38 +0000     2910 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4618">178.  2017-04-07 03:12:26 +0000     2910 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4634">ebshim/minified/shims/i18n/errormessages-he.js</tspan>
-<tspan x="10" y="4650">179.  2017-04-07 03:10:38 +0000     3286 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4650">179.  2017-04-07 03:12:26 +0000     3286 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4666">ebshim/minified/shims/i18n/errormessages-hi.js</tspan>
-<tspan x="10" y="4682">180.  2017-04-07 03:10:38 +0000     1486 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4682">180.  2017-04-07 03:12:26 +0000     1486 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4698">ebshim/minified/shims/i18n/errormessages-hu.js</tspan>
-<tspan x="10" y="4714">181.  2017-04-07 03:10:38 +0000     1132 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4714">181.  2017-04-07 03:12:26 +0000     1132 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4730">ebshim/minified/shims/i18n/errormessages-it.js</tspan>
-<tspan x="10" y="4746">182.  2017-04-07 03:10:38 +0000     2229 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4746">182.  2017-04-07 03:12:26 +0000     2229 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4762">ebshim/minified/shims/i18n/errormessages-ja.js</tspan>
-<tspan x="10" y="4778">183.  2017-04-07 03:10:38 +0000     1084 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4778">183.  2017-04-07 03:12:26 +0000     1084 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4794">ebshim/minified/shims/i18n/errormessages-nl.js</tspan>
-<tspan x="10" y="4810">184.  2017-04-07 03:10:38 +0000     1178 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4810">184.  2017-04-07 03:12:26 +0000     1178 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4826">ebshim/minified/shims/i18n/errormessages-pt-PT.js</tspan>
-<tspan x="10" y="4842">185.  2017-04-07 03:10:38 +0000     4386 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4842">185.  2017-04-07 03:12:26 +0000     4386 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4858">ebshim/minified/shims/i18n/errormessages-ru.js</tspan>
-<tspan x="10" y="4874">186.  2017-04-07 03:10:38 +0000     1181 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4874">186.  2017-04-07 03:12:26 +0000     1181 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4890">ebshim/minified/shims/i18n/errormessages-sv.js</tspan>
-<tspan x="10" y="4906">187.  2017-04-07 03:10:38 +0000     7022 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4906">187.  2017-04-07 03:12:26 +0000     7022 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4922">ebshim/minified/shims/json-storage.js</tspan>
-<tspan x="10" y="4938">188.  2017-04-07 03:10:38 +0000      302 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4938">188.  2017-04-07 03:12:26 +0000      302 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4954">ebshim/minified/shims/jwplayer/license.txt</tspan>
-<tspan x="10" y="4970">189.  2017-04-07 03:10:38 +0000   113505 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="4970">189.  2017-04-07 03:12:26 +0000   113505 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="4986">ebshim/minified/shims/jwplayer/player.swf</tspan>
-<tspan x="10" y="5002">190.  2017-04-07 03:10:38 +0000     5826 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5002">190.  2017-04-07 03:12:26 +0000     5826 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5018">ebshim/minified/shims/jwplayer/readme.html</tspan>
-<tspan x="10" y="5034">191.  2017-04-07 03:10:38 +0000     9309 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5034">191.  2017-04-07 03:12:26 +0000     9309 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5050">ebshim/minified/shims/mediaelement-core.js</tspan>
-<tspan x="10" y="5066">192.  2017-04-07 03:10:38 +0000    12359 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5066">192.  2017-04-07 03:12:26 +0000    12359 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5082">ebshim/minified/shims/mediaelement-jaris.js</tspan>
-<tspan x="10" y="5098">193.  2017-04-07 03:10:38 +0000     1524 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5098">193.  2017-04-07 03:12:26 +0000     1524 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5114">ebshim/minified/shims/mediaelement-native-fix.js</tspan>
-<tspan x="10" y="5130">194.  2017-04-07 03:10:38 +0000    13719 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5130">194.  2017-04-07 03:12:26 +0000    13719 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5146">ebshim/minified/shims/mediaelement-swf.js</tspan>
-<tspan x="10" y="5162">195.  2017-04-07 03:10:38 +0000     7312 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5162">195.  2017-04-07 03:12:26 +0000     7312 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5178">ebshim/minified/shims/mediaelement-yt.js</tspan>
-<tspan x="10" y="5194">196.  2017-04-07 03:10:38 +0000      283 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5194">196.  2017-04-07 03:12:26 +0000      283 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5210">ebshim/minified/shims/styles/details-arrows.png</tspan>
-<tspan x="10" y="5226">197.  2017-04-07 03:10:38 +0000     1779 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5226">197.  2017-04-07 03:12:26 +0000     1779 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5242">ebshim/minified/shims/styles/forms.png</tspan>
-<tspan x="10" y="5258">198.  2017-04-07 03:10:38 +0000     3208 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5258">198.  2017-04-07 03:12:26 +0000     3208 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5274">ebshim/minified/shims/styles/polyfill-loader.gif</tspan>
-<tspan x="10" y="5290">199.  2017-04-07 03:10:38 +0000    12417 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5290">199.  2017-04-07 03:12:26 +0000    12417 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5306">ebshim/minified/shims/styles/shim.css</tspan>
-<tspan x="10" y="5322">200.  2017-04-07 03:10:38 +0000    22467 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5322">200.  2017-04-07 03:12:26 +0000    22467 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5338">ebshim/minified/shims/swf/JarisFLVPlayer.swf</tspan>
-<tspan x="10" y="5354">201.  2017-04-07 03:10:38 +0000     1365 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5354">201.  2017-04-07 03:12:26 +0000     1365 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5370">ebshim/minified/shims/swf/jwwebshims.swf</tspan>
-<tspan x="10" y="5386">202.  2017-04-07 03:10:38 +0000     1773 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5386">202.  2017-04-07 03:12:26 +0000     1773 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5402">ebshim/minified/shims/swf/localStorage.swf</tspan>
-<tspan x="10" y="5418">203.  2017-04-07 03:10:38 +0000     4614 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5418">203.  2017-04-07 03:12:26 +0000     4614 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5434">ebshim/minified/shims/track-ui.js</tspan>
-<tspan x="10" y="5450">204.  2017-04-07 03:10:38 +0000    10910 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
+<tspan x="10" y="5450">204.  2017-04-07 03:12:26 +0000    10910 byte  test/mocha/html-snapshots/server/vendor/js/libs/w\</tspan>
 <tspan x="10" y="5466">ebshim/minified/shims/track.js</tspan>
-<tspan x="10" y="5482">205.  2017-04-07 03:10:38 +0000     1204 byte  test/mocha/html-snapshots/server/vendor/js/plugin\</tspan>
+<tspan x="10" y="5482">205.  2017-04-07 03:12:26 +0000     1204 byte  test/mocha/html-snapshots/server/vendor/js/plugin\</tspan>
 <tspan x="10" y="5498">s/cload.js</tspan>
-<tspan x="10" y="5514">206.  2017-04-07 03:10:38 +0000     7992 byte  test/mocha/html-snapshots/server/vendor/js/plugin\</tspan>
+<tspan x="10" y="5514">206.  2017-04-07 03:12:26 +0000     7992 byte  test/mocha/html-snapshots/server/vendor/js/plugin\</tspan>
 <tspan x="10" y="5530">s/modernizr.js</tspan>
-<tspan x="10" y="5546">207.  2017-04-07 03:10:38 +0000     1855 byte  test/mocha/html-snapshots/server/vendor/js/plugin\</tspan>
+<tspan x="10" y="5546">207.  2017-04-07 03:12:26 +0000     1855 byte  test/mocha/html-snapshots/server/vendor/js/plugin\</tspan>
 <tspan x="10" y="5562">s/oldie.js</tspan>
-<tspan x="10" y="5578">208.  2017-04-07 03:10:38 +0000     3989 byte  test/mocha/html-snapshots/sitemap-index.js</tspan>
-<tspan x="10" y="5594">209.  2017-04-07 03:10:38 +0000     1498 byte  test/mocha/html-snapshots/sitemap.js</tspan>
-<tspan x="10" y="5610">210.  2017-04-07 03:10:38 +0000     6009 byte  test/mocha/html-snapshots/snapshot-scripts.js</tspan>
-<tspan x="10" y="5626">211.  2017-04-07 03:10:38 +0000     2362 byte  test/mocha/html-snapshots/test.js</tspan>
-<tspan x="10" y="5642">212.  2017-04-07 03:10:38 +0000      215 byte  test/mocha/html-snapshots/test_robots.txt</tspan>
-<tspan x="10" y="5658">213.  2017-04-07 03:10:38 +0000      815 byte  test/mocha/html-snapshots/test_sitemap.xml</tspan>
-<tspan x="10" y="5674">214.  2017-04-07 03:10:38 +0000     4370 byte  test/mocha/html-snapshots/use-jquery.js</tspan>
-<tspan x="10" y="5690">215.  2017-04-07 03:10:38 +0000     4873 byte  test/mocha/html-snapshots/utils.js</tspan>
-<tspan x="10" y="5706">216.  2017-04-07 03:10:38 +0000      738 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
+<tspan x="10" y="5578">208.  2017-04-07 03:12:26 +0000     3989 byte  test/mocha/html-snapshots/sitemap-index.js</tspan>
+<tspan x="10" y="5594">209.  2017-04-07 03:12:26 +0000     1498 byte  test/mocha/html-snapshots/sitemap.js</tspan>
+<tspan x="10" y="5610">210.  2017-04-07 03:12:26 +0000     6009 byte  test/mocha/html-snapshots/snapshot-scripts.js</tspan>
+<tspan x="10" y="5626">211.  2017-04-07 03:12:26 +0000     2362 byte  test/mocha/html-snapshots/test.js</tspan>
+<tspan x="10" y="5642">212.  2017-04-07 03:12:26 +0000      215 byte  test/mocha/html-snapshots/test_robots.txt</tspan>
+<tspan x="10" y="5658">213.  2017-04-07 03:12:26 +0000      815 byte  test/mocha/html-snapshots/test_sitemap.xml</tspan>
+<tspan x="10" y="5674">214.  2017-04-07 03:12:26 +0000     4370 byte  test/mocha/html-snapshots/use-jquery.js</tspan>
+<tspan x="10" y="5690">215.  2017-04-07 03:12:26 +0000     4873 byte  test/mocha/html-snapshots/utils.js</tspan>
+<tspan x="10" y="5706">216.  2017-04-07 03:12:26 +0000      738 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
 <tspan x="10" y="5722">ss/category-sitemap.xml</tspan>
-<tspan x="10" y="5738">217.  2017-04-07 03:10:38 +0000      806 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
+<tspan x="10" y="5738">217.  2017-04-07 03:12:26 +0000      806 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
 <tspan x="10" y="5754">ss/page-sitemap.xml</tspan>
-<tspan x="10" y="5770">218.  2017-04-07 03:10:38 +0000     2877 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
+<tspan x="10" y="5770">218.  2017-04-07 03:12:26 +0000     2877 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
 <tspan x="10" y="5786">ss/post-sitemap.xml</tspan>
-<tspan x="10" y="5802">219.  2017-04-07 03:10:38 +0000     1087 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
+<tspan x="10" y="5802">219.  2017-04-07 03:12:26 +0000     1087 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
 <tspan x="10" y="5818">ss/post_tag-sitemap.xml</tspan>
-<tspan x="10" y="5834">220.  2017-04-07 03:10:38 +0000      768 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
+<tspan x="10" y="5834">220.  2017-04-07 03:12:26 +0000      768 byte  test/mocha/input-generators/server/public/wordpre\</tspan>
 <tspan x="10" y="5850">ss/product-sitemap.xml</tspan>
-<tspan x="10" y="5866">221.  2017-04-07 03:10:38 +0000      281 byte  test/mocha/input-generators/server/test_robots.tx\</tspan>
+<tspan x="10" y="5866">221.  2017-04-07 03:12:26 +0000      281 byte  test/mocha/input-generators/server/test_robots.tx\</tspan>
 <tspan x="10" y="5882">t</tspan>
-<tspan x="10" y="5898">222.  2017-04-07 03:10:38 +0000      187 byte  test/mocha/input-generators/server/test_robots_ba\</tspan>
+<tspan x="10" y="5898">222.  2017-04-07 03:12:26 +0000      187 byte  test/mocha/input-generators/server/test_robots_ba\</tspan>
 <tspan x="10" y="5914">d.txt</tspan>
-<tspan x="10" y="5930">223.  2017-04-07 03:10:38 +0000     1194 byte  test/mocha/input-generators/server/test_sitemap.x\</tspan>
+<tspan x="10" y="5930">223.  2017-04-07 03:12:26 +0000     1194 byte  test/mocha/input-generators/server/test_sitemap.x\</tspan>
 <tspan x="10" y="5946">ml</tspan>
-<tspan x="10" y="5962">224.  2017-04-07 03:10:38 +0000      386 byte  test/mocha/input-generators/server/test_sitemap.x\</tspan>
+<tspan x="10" y="5962">224.  2017-04-07 03:12:26 +0000      386 byte  test/mocha/input-generators/server/test_sitemap.x\</tspan>
 <tspan x="10" y="5978">ml.gz</tspan>
-<tspan x="10" y="5994">225.  2017-04-07 03:10:38 +0000      384 byte  test/mocha/input-generators/server/test_sitemap_b\</tspan>
+<tspan x="10" y="5994">225.  2017-04-07 03:12:26 +0000      384 byte  test/mocha/input-generators/server/test_sitemap_b\</tspan>
 <tspan x="10" y="6010">ad.xml.gz</tspan>
-<tspan x="10" y="6026">226.  2017-04-07 03:10:38 +0000     1014 byte  test/mocha/input-generators/server/test_sitemap_i\</tspan>
+<tspan x="10" y="6026">226.  2017-04-07 03:12:26 +0000     1014 byte  test/mocha/input-generators/server/test_sitemap_i\</tspan>
 <tspan x="10" y="6042">ndex.xml</tspan>
-<tspan x="10" y="6058">227.  2017-04-07 03:10:38 +0000      395 byte  test/mocha/input-generators/server/test_sitemap_i\</tspan>
+<tspan x="10" y="6058">227.  2017-04-07 03:12:26 +0000      395 byte  test/mocha/input-generators/server/test_sitemap_i\</tspan>
 <tspan x="10" y="6074">ndex.xml.gz</tspan>
-<tspan x="10" y="6090">228.  2017-04-07 03:10:38 +0000      794 byte  test/mocha/input-generators/sitemap-index.js</tspan>
-<tspan x="10" y="6106">229.  2017-04-07 03:10:38 +0000     9564 byte  test/mocha/input-generators/sitemap.js</tspan>
-<tspan x="10" y="6122">230.  2017-04-07 03:10:38 +0000    42724 byte  test/mocha/input-generators/test.js</tspan>
-<tspan x="10" y="6138">231.  2017-04-07 03:10:38 +0000       67 byte  test/mocha/input-generators/test_line.txt</tspan>
-<tspan x="10" y="6154">232.  2017-04-07 03:10:38 +0000      281 byte  test/mocha/input-generators/test_robots.txt</tspan>
-<tspan x="10" y="6170">233.  2017-04-07 03:10:38 +0000      187 byte  test/mocha/input-generators/test_robots_bad.txt</tspan>
-<tspan x="10" y="6186">234.  2017-04-07 03:10:38 +0000     1194 byte  test/mocha/input-generators/test_sitemap.xml</tspan>
-<tspan x="10" y="6202">235.  2017-04-07 03:10:38 +0000      386 byte  test/mocha/input-generators/test_sitemap.xml.gz</tspan>
-<tspan x="10" y="6218">236.  2017-04-07 03:10:38 +0000      384 byte  test/mocha/input-generators/test_sitemap_bad.xml.\</tspan>
+<tspan x="10" y="6090">228.  2017-04-07 03:12:26 +0000      794 byte  test/mocha/input-generators/sitemap-index.js</tspan>
+<tspan x="10" y="6106">229.  2017-04-07 03:12:26 +0000     9564 byte  test/mocha/input-generators/sitemap.js</tspan>
+<tspan x="10" y="6122">230.  2017-04-07 03:12:26 +0000    42724 byte  test/mocha/input-generators/test.js</tspan>
+<tspan x="10" y="6138">231.  2017-04-07 03:12:26 +0000       67 byte  test/mocha/input-generators/test_line.txt</tspan>
+<tspan x="10" y="6154">232.  2017-04-07 03:12:26 +0000      281 byte  test/mocha/input-generators/test_robots.txt</tspan>
+<tspan x="10" y="6170">233.  2017-04-07 03:12:26 +0000      187 byte  test/mocha/input-generators/test_robots_bad.txt</tspan>
+<tspan x="10" y="6186">234.  2017-04-07 03:12:26 +0000     1194 byte  test/mocha/input-generators/test_sitemap.xml</tspan>
+<tspan x="10" y="6202">235.  2017-04-07 03:12:26 +0000      386 byte  test/mocha/input-generators/test_sitemap.xml.gz</tspan>
+<tspan x="10" y="6218">236.  2017-04-07 03:12:26 +0000      384 byte  test/mocha/input-generators/test_sitemap_bad.xml.\</tspan>
 <tspan x="10" y="6234">gz</tspan>
-<tspan x="10" y="6250">237.  2017-04-07 03:10:38 +0000     1014 byte  test/mocha/input-generators/test_sitemap_index.xm\</tspan>
+<tspan x="10" y="6250">237.  2017-04-07 03:12:26 +0000     1014 byte  test/mocha/input-generators/test_sitemap_index.xm\</tspan>
 <tspan x="10" y="6266">l</tspan>
-<tspan x="10" y="6282">238.  2017-04-07 03:10:38 +0000      395 byte  test/mocha/input-generators/test_sitemap_index.xm\</tspan>
+<tspan x="10" y="6282">238.  2017-04-07 03:12:26 +0000      395 byte  test/mocha/input-generators/test_sitemap_index.xm\</tspan>
 <tspan x="10" y="6298">l.gz</tspan>
-<tspan x="10" y="6314">239.  2017-04-07 03:10:38 +0000      625 byte  test/server/index.js</tspan>
+<tspan x="10" y="6314">239.  2017-04-07 03:12:26 +0000      625 byte  test/server/index.js</tspan>
 </text>
 </svg>
