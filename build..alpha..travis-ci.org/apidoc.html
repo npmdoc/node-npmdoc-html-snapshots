@@ -1,0 +1,187 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/localnerve/html-snapshots"
+
+    >html-snapshots (v0.14.0)</a>
+</h1>
+<h4>A selector-based html snapshot tool using PhantomJS that sources sitemap.xml, robots.txt, or arbitrary input</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.html-snapshots">module html-snapshots</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.html-snapshots.run">
+            function <span class="apidocSignatureSpan">html-snapshots.</span>run
+            <span class="apidocSignatureSpan">(options, listener)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.html-snapshots" id="apidoc.module.html-snapshots">module html-snapshots</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.html-snapshots.run" id="apidoc.element.html-snapshots.run">
+        function <span class="apidocSignatureSpan">html-snapshots.</span>run
+        <span class="apidocSignatureSpan">(options, listener)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function (options, listener) {
+  var inputGenerator, notifier, started, result, q, emitter, completion;
+
+  options = options || {};
+  prepOptions(options);
+
+  // create the inputGenerator, default to robots
+  inputGenerator = inputFactory.create(options.input);
+
+  // clean the snapshot output directory
+  if (options.outputDirClean) {
+    rimraf(options.outputDir);
+  }
+
+  // start async completion notification.
+  notifier = new Notifier();
+  emitter = new EventEmitter();
+  started = notifier.start(options.pollInterval, inputGenerator,
+    function (err, completed) {
+      emitter.emit(&#x22;complete&#x22;, err, completed);
+    });
+
+  if (started) {
+    // create the completion Promise.
+    completion = new Promise(function (resolve, reject) {
+      function completionResolver (err, completed) {
+        try {
+          _.isFunction(listener) &#x26;&#x26; listener(err, completed);
+        } catch (e) {
+          console.error(&#x22;User supplied listener exception&#x22;, e);
+        }
+        if (err) {
+          err.notCompleted = notifier.filesNotDone;
+          err.completed = completed;
+          reject(err);
+        } else {
+          resolve(completed);
+        }
+      }
+      emitter.addListener(&#x22;complete&#x22;, completionResolver);
+    });
+
+    // create a worker queue with a parallel process limit.
+    q = asyncLib.queue(function (task, callback) {
+      task(_.once(callback));
+    }, options.processLimit);
+
+    // have the queue call notifier.empty when last item
+    //  from the queue is given to a worker.
+    q.empty = notifier.qEmpty.bind(notifier);
+
+    // expose abort callback to input generators via options.
+    options._abort = function (err) {
+      notifier.abort(q, err);
+    };
+
+    // generate input for the snapshots.
+    result = inputGenerator.run(options, function (input) {
+      // give the worker the input and place into the queue
+      q.push(_.partial(worker, input, options, notifier));
+    })
+      // after input generation, resolve on browser completion.
+      .then(function () {
+        return completion;
+      });
+  } else {
+    result = Promise.reject(&#x22;failed to start async notifier&#x22;);
+  }
+
+  return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+A growing showcase of runnable examples can be found [here](/examples).
+
+An older (version 0.13.2), more in depth usage example is located in this [article](/docs/example-heroku-redis.md) that includes
+ explanation and code of a real usage featuring dynamic app routes, ExpressJS, Heroku, and more.
+
+### Simple example
+```javascript
+var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
+  source: &#x22;/path/to/robots.txt&#x22;,
+  hostname: &#x22;exampledomain.com&#x22;,
+  outputDir: &#x22;./snapshots&#x22;,
+  outputDirClean: true,
+  selector: &#x22;#dynamic-content&#x22;
+})
+.then(function (completed) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
