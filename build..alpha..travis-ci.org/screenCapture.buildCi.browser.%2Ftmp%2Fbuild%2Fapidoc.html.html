@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/localnerve/html-snapshots"
-
-    >html-snapshots (v0.14.0)</a>
+    <a href="https://github.com/localnerve/html-snapshots">html-snapshots (v0.14.0)</a>
 </h1>
 <h4>A selector-based html snapshot tool using PhantomJS that sources sitemap.xml, robots.txt, or arbitrary input</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.html-snapshots">module html-snapshots</a><ol>
 
@@ -290,7 +283,7 @@
   emitter = new EventEmitter();
   started = notifier.start(options.pollInterval, inputGenerator,
     function (err, completed) {
-      emitter.emit(&#x22;complete&#x22;, err, completed);
+      emitter.emit("complete", err, completed);
     });
 
   if (started) {
@@ -298,9 +291,9 @@
     completion = new Promise(function (resolve, reject) {
       function completionResolver (err, completed) {
         try {
-          _.isFunction(listener) &#x26;&#x26; listener(err, completed);
+          _.isFunction(listener) &amp;&amp; listener(err, completed);
         } catch (e) {
-          console.error(&#x22;User supplied listener exception&#x22;, e);
+          console.error("User supplied listener exception", e);
         }
         if (err) {
           err.notCompleted = notifier.filesNotDone;
@@ -310,7 +303,7 @@
           resolve(completed);
         }
       }
-      emitter.addListener(&#x22;complete&#x22;, completionResolver);
+      emitter.addListener("complete", completionResolver);
     });
 
     // create a worker queue with a parallel process limit.
@@ -337,7 +330,7 @@
         return completion;
       });
   } else {
-    result = Promise.reject(&#x22;failed to start async notifier&#x22;);
+    result = Promise.reject("failed to start async notifier");
   }
 
   return result;
@@ -350,13 +343,13 @@ An older (version 0.13.2), more in depth usage example is located in this [artic
 
 ### Simple example
 ```javascript
-var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+var htmlSnapshots = require('html-snapshots');
 htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
-  source: &#x22;/path/to/robots.txt&#x22;,
-  hostname: &#x22;exampledomain.com&#x22;,
-  outputDir: &#x22;./snapshots&#x22;,
+  source: "/path/to/robots.txt",
+  hostname: "exampledomain.com",
+  outputDir: "./snapshots",
   outputDirClean: true,
-  selector: &#x22;#dynamic-content&#x22;
+  selector: "#dynamic-content"
 })
 .then(function (completed) {
 ...</pre></li>
@@ -448,7 +441,7 @@ array = module.exports = {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">generatorError = function () {
-  return new Error(&#x22;Failed to generate input&#x22;);
+  return new Error("Failed to generate input");
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
             auth: url.auth,
@@ -484,7 +477,7 @@ array = module.exports = {
 
   if (outputFile) {
 
-    options._inputEmitter.emit(&#x22;input&#x22;, {
+    options._inputEmitter.emit("input", {
       outputFile: outputFile,
       // make the url
       url: urlm.format({
@@ -550,14 +543,14 @@ if (process) {
 
   var outputPath = getOutputPath(options, page, parse);
   var outputDir = options.outputDir;
-  var fileName = &#x22;index.html&#x22;;
+  var fileName = "index.html";
 
   if (options.sitemapOutputDir) {
     outputDir = path.join(options.outputDir, options.sitemapOutputDir);
-    fileName = &#x22;&#x22;;
+    fileName = "";
   }
 
-  return ( outputPath &#x26;&#x26; path.join(outputDir, outputPath, fileName) ) || false;
+  return ( outputPath &amp;&amp; path.join(outputDir, outputPath, fileName) ) || false;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 var now = Date.now();
@@ -565,15 +558,15 @@ var lMod = _.first(urlNode.lastmod);
 var cFreq = _.first(urlNode.changefreq) ? _.first(urlNode.changefreq).toLowerCase() : null;
 
 // only lastmod specified
-if (lMod &#x26;&#x26; !cFreq) {
+if (lMod &amp;&amp; !cFreq) {
   // if sitemap is malformed, just blow up
   oPath = base.<span class="apidocCodeKeywordSpan">outputFile</span>(options, urlNode.loc[0]);
 
-  lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.getTime()) || unixStart );
+  lesser = now - ( (fs.existsSync(oPath) &amp;&amp; fs.statSync(oPath).mtime.getTime()) || unixStart );
   greater = now - Date.parse(lMod);
 }
 // only changefreq specified
-else if (!lMod &#x26;&#x26; cFreq) {
+else if (!lMod &amp;&amp; cFreq) {
   // if sitemap is malformed, just blow up
 ...</pre></li>
     </ul>
@@ -600,13 +593,13 @@ An older (version 0.13.2), more in depth usage example is located in this [artic
 
 ### Simple example
 ```javascript
-var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+var htmlSnapshots = require('html-snapshots');
 htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
-  source: &#x22;/path/to/robots.txt&#x22;,
-  hostname: &#x22;exampledomain.com&#x22;,
-  outputDir: &#x22;./snapshots&#x22;,
+  source: "/path/to/robots.txt",
+  hostname: "exampledomain.com",
+  outputDir: "./snapshots",
   outputDirClean: true,
-  selector: &#x22;#dynamic-content&#x22;
+  selector: "#dynamic-content"
 })
 .then(function (completed) {
 ...</pre></li>
@@ -637,13 +630,13 @@ An older (version 0.13.2), more in depth usage example is located in this [artic
 
 ### Simple example
 ```javascript
-var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+var htmlSnapshots = require('html-snapshots');
 htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
-  source: &#x22;/path/to/robots.txt&#x22;,
-  hostname: &#x22;exampledomain.com&#x22;,
-  outputDir: &#x22;./snapshots&#x22;,
+  source: "/path/to/robots.txt",
+  hostname: "exampledomain.com",
+  outputDir: "./snapshots",
   outputDirClean: true,
-  selector: &#x22;#dynamic-content&#x22;
+  selector: "#dynamic-content"
 })
 .then(function (completed) {
 ...</pre></li>
@@ -682,7 +675,7 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
   emitter = new EventEmitter();
   started = notifier.start(options.pollInterval, inputGenerator,
     function (err, completed) {
-      emitter.emit(&#x22;complete&#x22;, err, completed);
+      emitter.emit("complete", err, completed);
     });
 
   if (started) {
@@ -690,9 +683,9 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
     completion = new Promise(function (resolve, reject) {
       function completionResolver (err, completed) {
         try {
-          _.isFunction(listener) &#x26;&#x26; listener(err, completed);
+          _.isFunction(listener) &amp;&amp; listener(err, completed);
         } catch (e) {
-          console.error(&#x22;User supplied listener exception&#x22;, e);
+          console.error("User supplied listener exception", e);
         }
         if (err) {
           err.notCompleted = notifier.filesNotDone;
@@ -702,7 +695,7 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
           resolve(completed);
         }
       }
-      emitter.addListener(&#x22;complete&#x22;, completionResolver);
+      emitter.addListener("complete", completionResolver);
     });
 
     // create a worker queue with a parallel process limit.
@@ -729,7 +722,7 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
         return completion;
       });
   } else {
-    result = Promise.reject(&#x22;failed to start async notifier&#x22;);
+    result = Promise.reject("failed to start async notifier");
   }
 
   return result;
@@ -742,13 +735,13 @@ An older (version 0.13.2), more in depth usage example is located in this [artic
 
 ### Simple example
 ```javascript
-var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+var htmlSnapshots = require('html-snapshots');
 htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
-  source: &#x22;/path/to/robots.txt&#x22;,
-  hostname: &#x22;exampledomain.com&#x22;,
-  outputDir: &#x22;./snapshots&#x22;,
+  source: "/path/to/robots.txt",
+  hostname: "exampledomain.com",
+  outputDir: "./snapshots",
   outputDirClean: true,
-  selector: &#x22;#dynamic-content&#x22;
+  selector: "#dynamic-content"
 })
 .then(function (completed) {
 ...</pre></li>
@@ -781,13 +774,13 @@ An older (version 0.13.2), more in depth usage example is located in this [artic
 
 ### Simple example
 ```javascript
-var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+var htmlSnapshots = require('html-snapshots');
 htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
-  source: &#x22;/path/to/robots.txt&#x22;,
-  hostname: &#x22;exampledomain.com&#x22;,
-  outputDir: &#x22;./snapshots&#x22;,
+  source: "/path/to/robots.txt",
+  hostname: "exampledomain.com",
+  outputDir: "./snapshots",
   outputDirClean: true,
-  selector: &#x22;#dynamic-content&#x22;
+  selector: "#dynamic-content"
 })
 .then(function (completed) {
 ...</pre></li>
@@ -834,7 +827,7 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
     encoding: null,
     timeout: options.timeout() // get the default timeout
   }, function (err, res, body) {
-    var error = err || common.checkResponse(res, [&#x22;text/xml&#x22;, &#x22;application/xml&#x22;]);
+    var error = err || common.checkResponse(res, ["text/xml", "application/xml"]);
 
     if (error) {
       callback(common.prependMsgToErr(error, options.source, true));
@@ -905,19 +898,19 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
     <li>example usage<pre class="apidocCodePre">...
 
   // only lastmod specified
-  if (lMod &#x26;&#x26; !cFreq) {
+  if (lMod &amp;&amp; !cFreq) {
 // if sitemap is malformed, just blow up
 oPath = base.outputFile(options, urlNode.loc[0]);
 
-lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.getTime()) || unixStart );
+lesser = now - ( (fs.existsSync(oPath) &amp;&amp; fs.statSync(oPath).mtime.getTime()) || unixStart );
 greater = now - Date.<span class="apidocCodeKeywordSpan">parse</span>(lMod);
   }
   // only changefreq specified
-  else if (!lMod &#x26;&#x26; cFreq) {
+  else if (!lMod &amp;&amp; cFreq) {
 // if sitemap is malformed, just blow up
 oPath = base.outputFile(options, urlNode.loc[0]);
 
-lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.getTime()) || unixStart );
+lesser = now - ( (fs.existsSync(oPath) &amp;&amp; fs.statSync(oPath).mtime.getTime()) || unixStart );
 ...</pre></li>
     </ul>
 
@@ -937,19 +930,19 @@ lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.get
   var cFreq = _.first(urlNode.changefreq) ? _.first(urlNode.changefreq).toLowerCase() : null;
 
   // only lastmod specified
-  if (lMod &#x26;&#x26; !cFreq) {
+  if (lMod &amp;&amp; !cFreq) {
     // if sitemap is malformed, just blow up
     oPath = base.outputFile(options, urlNode.loc[0]);
 
-    lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.getTime()) || unixStart );
+    lesser = now - ( (fs.existsSync(oPath) &amp;&amp; fs.statSync(oPath).mtime.getTime()) || unixStart );
     greater = now - Date.parse(lMod);
   }
   // only changefreq specified
-  else if (!lMod &#x26;&#x26; cFreq) {
+  else if (!lMod &amp;&amp; cFreq) {
     // if sitemap is malformed, just blow up
     oPath = base.outputFile(options, urlNode.loc[0]);
 
-    lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.getTime()) || unixStart );
+    lesser = now - ( (fs.existsSync(oPath) &amp;&amp; fs.statSync(oPath).mtime.getTime()) || unixStart );
     greater = changeFreq[cFreq] || changeFreq.always;
   }
   // both or neither were specified
@@ -958,7 +951,7 @@ lesser = now - ( (fs.existsSync(oPath) &#x26;&#x26; fs.statSync(oPath).mtime.get
     greater = changeFreq[cFreq] || changeFreq.always;
   }
 
-  return lesser &#x3c;= greater;
+  return lesser &lt;= greater;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -990,13 +983,13 @@ An older (version 0.13.2), more in depth usage example is located in this [artic
 
 ### Simple example
 ```javascript
-var htmlSnapshots = require(&#x27;html-snapshots&#x27;);
+var htmlSnapshots = require('html-snapshots');
 htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
-  source: &#x22;/path/to/robots.txt&#x22;,
-  hostname: &#x22;exampledomain.com&#x22;,
-  outputDir: &#x22;./snapshots&#x22;,
+  source: "/path/to/robots.txt",
+  hostname: "exampledomain.com",
+  outputDir: "./snapshots",
   outputDirClean: true,
-  selector: &#x22;#dynamic-content&#x22;
+  selector: "#dynamic-content"
 })
 .then(function (completed) {
 ...</pre></li>
@@ -1011,3 +1004,4 @@ htmlSnapshots.<span class="apidocCodeKeywordSpan">run</span>({
     ]
 </div>
 </div>
+</body></html>
