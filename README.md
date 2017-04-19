@@ -1,9 +1,14 @@
-# api documentation for  [html-snapshots (v0.14.0)](https://github.com/localnerve/html-snapshots)  [![npm package](https://img.shields.io/npm/v/npmdoc-html-snapshots.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-html-snapshots) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-html-snapshots.svg)](https://travis-ci.org/npmdoc/node-npmdoc-html-snapshots)
+# npmdoc-html-snapshots
+
+#### api documentation for  [html-snapshots (v0.14.0)](https://github.com/localnerve/html-snapshots)  [![npm package](https://img.shields.io/npm/v/npmdoc-html-snapshots.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-html-snapshots) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-html-snapshots.svg)](https://travis-ci.org/npmdoc/node-npmdoc-html-snapshots)
+
 #### A selector-based html snapshot tool using PhantomJS that sources sitemap.xml, robots.txt, or arbitrary input
 
-[![NPM](https://nodei.co/npm/html-snapshots.png?downloads=true)](https://www.npmjs.com/package/html-snapshots)
+[![NPM](https://nodei.co/npm/html-snapshots.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/html-snapshots)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-html-snapshots/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-html-snapshots_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-html-snapshots/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-html-snapshots/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-html-snapshots/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-html-snapshots/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-html-snapshots/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-html-snapshots/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Alex Grant",
-        "email": "alex@localnerve.com",
         "url": "http://localnerve.com"
     },
     "bugs": {
@@ -26,8 +30,7 @@
     },
     "contributors": [
         {
-            "name": "Alex Grant",
-            "email": "alex@localnerve.com"
+            "name": "Alex Grant"
         }
     ],
     "dependencies": {
@@ -76,8 +79,7 @@
     "main": "./lib/html-snapshots",
     "maintainers": [
         {
-            "name": "localnerve",
-            "email": "alex@localnerve.com"
+            "name": "localnerve"
         }
     ],
     "name": "html-snapshots",
@@ -85,7 +87,6 @@
     "pre-commit": [
         "lint"
     ],
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/localnerve/html-snapshots.git"
@@ -102,114 +103,6 @@
     },
     "version": "0.14.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module html-snapshots](#apidoc.module.html-snapshots)
-1.  [function <span class="apidocSignatureSpan">html-snapshots.</span>run (options, listener)](#apidoc.element.html-snapshots.run)
-
-
-
-# <a name="apidoc.module.html-snapshots"></a>[module html-snapshots](#apidoc.module.html-snapshots)
-
-#### <a name="apidoc.element.html-snapshots.run"></a>[function <span class="apidocSignatureSpan">html-snapshots.</span>run (options, listener)](#apidoc.element.html-snapshots.run)
-- description and source-code
-```javascript
-run = function (options, listener) {
-  var inputGenerator, notifier, started, result, q, emitter, completion;
-
-  options = options || {};
-  prepOptions(options);
-
-  // create the inputGenerator, default to robots
-  inputGenerator = inputFactory.create(options.input);
-
-  // clean the snapshot output directory
-  if (options.outputDirClean) {
-    rimraf(options.outputDir);
-  }
-
-  // start async completion notification.
-  notifier = new Notifier();
-  emitter = new EventEmitter();
-  started = notifier.start(options.pollInterval, inputGenerator,
-    function (err, completed) {
-      emitter.emit("complete", err, completed);
-    });
-
-  if (started) {
-    // create the completion Promise.
-    completion = new Promise(function (resolve, reject) {
-      function completionResolver (err, completed) {
-        try {
-          _.isFunction(listener) && listener(err, completed);
-        } catch (e) {
-          console.error("User supplied listener exception", e);
-        }
-        if (err) {
-          err.notCompleted = notifier.filesNotDone;
-          err.completed = completed;
-          reject(err);
-        } else {
-          resolve(completed);
-        }
-      }
-      emitter.addListener("complete", completionResolver);
-    });
-
-    // create a worker queue with a parallel process limit.
-    q = asyncLib.queue(function (task, callback) {
-      task(_.once(callback));
-    }, options.processLimit);
-
-    // have the queue call notifier.empty when last item
-    //  from the queue is given to a worker.
-    q.empty = notifier.qEmpty.bind(notifier);
-
-    // expose abort callback to input generators via options.
-    options._abort = function (err) {
-      notifier.abort(q, err);
-    };
-
-    // generate input for the snapshots.
-    result = inputGenerator.run(options, function (input) {
-      // give the worker the input and place into the queue
-      q.push(_.partial(worker, input, options, notifier));
-    })
-      // after input generation, resolve on browser completion.
-      .then(function () {
-        return completion;
-      });
-  } else {
-    result = Promise.reject("failed to start async notifier");
-  }
-
-  return result;
-}
-```
-- example usage
-```shell
-...
-A growing showcase of runnable examples can be found [here](/examples).
-
-An older (version 0.13.2), more in depth usage example is located in this [article](/docs/example-heroku-redis.md) that includes
- explanation and code of a real usage featuring dynamic app routes, ExpressJS, Heroku, and more.
-
-### Simple example
-'''javascript
-var htmlSnapshots = require('html-snapshots');
-htmlSnapshots.run({
-  source: "/path/to/robots.txt",
-  hostname: "exampledomain.com",
-  outputDir: "./snapshots",
-  outputDirClean: true,
-  selector: "#dynamic-content"
-})
-.then(function (completed) {
-...
 ```
 
 
